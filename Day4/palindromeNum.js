@@ -1,4 +1,5 @@
 function palindrom(num) {
+    if (num < 0) return false;
     let copy = num;
     let rev = 0;
     while (num > 0) {
@@ -14,7 +15,7 @@ function palindrom(num) {
     }
 }
 
-const number = 124441;
+const number = -124441;
 const ans = palindrom(number)
 console.log(ans);
 
