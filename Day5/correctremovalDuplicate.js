@@ -10,7 +10,7 @@ function removeElement(arr, val) {
             x = x + 1;
         }
     }
-    return arr;
+    return x;
 }
 
 const array = [2, 4, 3, 2, 1, 3, 22, 32, 11, 2, 2]
