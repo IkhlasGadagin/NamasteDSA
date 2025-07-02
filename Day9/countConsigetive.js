@@ -13,7 +13,7 @@ function countCon(arr) {
 
     }
 
-    return maxNumber;
+    return Math.max(count, maxCount);
 }
 
 const arr = [1, 1, 0, 1, 1, 1];
