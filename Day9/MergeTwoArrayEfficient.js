@@ -26,13 +26,10 @@ function MergeArray(arr1, m, arr2, n) {
     return arr1;
 }
 
-// const arr1 = [3, 2, 2, 54, 2, 1, 7, 4];
-// const arr2 = [1, 3, 4, 5, 23, 3, 2, 2, 39]
+// const arr1 = [3, 2, 2, 54, 2, 1, 7, 4];  // const arr2 = [1, 3, 4, 5, 23, 3, 2, 2, 39]
 const arr1 = [1, 2, 3];
 const arr2 = [2, 5, 6]
-
 const m = arr1.length;
 const n = arr2.length;
-
 const ans = MergeArray(arr1, m, arr2, n);
 console.log(ans);
