@@ -2,8 +2,8 @@ function Rec(num) {
     if (num == 0) return
 
     console.log(num);
-    let newnum = num - 1;
-    Rec(newnum)
+    num = num - 1;
+    Rec(num)
 
 }
 
