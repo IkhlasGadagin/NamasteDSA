@@ -8,6 +8,6 @@ function sumEven(n) {
     }
 }
 
-const arr = [1, 2, 3, 4, 5, 4, 5, 3, 7, 8, 5, 11];
+const arr = [10, 2, 3, 4, 5, 4, 5, 3, 7, 10, 8, 5, 11];
 const ans = sumEven(arr.length - 1);
 console.log(ans);
