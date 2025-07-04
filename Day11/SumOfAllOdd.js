@@ -9,6 +9,6 @@ function sumOdd(n) {
 
 }
 
-const arr = [1, 2, 3, 4, 5, 4, 5, 3, 7, 8, 5, 11];
+const arr = [1, 2, 3, 4, 5, 4, 5, 3, 7, 8, 5, 11]; //40
 const ans = sumOdd(arr.length - 1);
 console.log(ans);

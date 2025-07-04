@@ -11,6 +11,6 @@ function sumEven(n) {
     }
 }
 
-const arr = [2, 4, 6, 3, 3, 5, 3, 3, 2, 2, 4, 5];
+const arr = [2, 4, 6, 3, 3, 5, 3, 3, 2, 2, 4, 5];  //20
 const ans = sumEven(arr.length - 1);
 console.log(ans);
