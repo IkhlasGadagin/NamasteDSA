@@ -3,7 +3,7 @@ function insertionSort(arr) {
         let curr = arr[i];
         let prev = i - 1;
 
-        while (arr[prev] > curr) {
+        while (arr[prev] < curr && prev >= 0) {
             arr[prev + 1] = arr[prev];
             prev--;
         }
