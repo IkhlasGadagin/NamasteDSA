@@ -1,7 +1,7 @@
 //Devide and conquere rule bu recursion return the sorted by helper function to the caller
 function mergeSort(arr) {
 
-    if (arr.length <= 0) return arr;
+    if (arr.length <= 1) return arr;
 
     let mid = Math.floor(arr.length / 2);
     let left = mergeSort(arr.slice(0, mid));
