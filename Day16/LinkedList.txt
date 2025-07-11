@@ -1,0 +1,7 @@
+They are the linear  data structure
+the insertion Deletion is easy 
+getting element is tough
+has head 
+node
+value 
+Tail
