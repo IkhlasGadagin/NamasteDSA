@@ -11,7 +11,7 @@ function addElement(val, index) {
     }
 
     else if (index == this.size) {
-        this.AddElementLast(val);
+        this.addElementLast(val);
         /*  let curr = this.head;
          while (curr.next != null) {
              cur = cur.next;
@@ -29,6 +29,7 @@ function addElement(val, index) {
         newNode.next = cur.next;
         cur.next = newNode;
     }
+    this.size++;
 
 }
 
