@@ -9,11 +9,18 @@ function addElement(val, index) {
         size++;
         */
     }
-    if (index == ) {
 
+    else if (index == this.size) {
+        let curr = this.head;
+        while (curr.next != null) {
+            cur = cur.next;
+        }
+        cur.next = newNode;
+        this.size++;
     }
-    const cur = this.head;
 
+
+    const cur = this.head;
     for (let i = 0; i < index - 1; i++) {
         cur = cur.next;
     }
