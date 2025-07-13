@@ -21,7 +21,7 @@
 function FastAndSlow(head) {
     let slow = head;
     let fast = head;
-    while (fast != null && fast.next != null) {      //for even numbers fast becomes null at the last sec
+    while (fast && fast.next) {  //for even numbers fast becomes null at the last sec
         //for odd numbers fast.next becomes null at the end
         slow = slow.next;
         fast = fast.next.next;
