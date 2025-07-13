@@ -1,5 +1,5 @@
 function getElementofIndex(index) {
-    if (this.size == 0) return -1
+    if (index < 0 || index >= size) return -1
 
     if (index == 0) return this.head.val;
     // if(index ==size) return 
