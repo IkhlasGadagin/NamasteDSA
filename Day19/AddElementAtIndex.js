@@ -2,12 +2,15 @@ function addElement(val, index) {
     let newNode = new Node(val);
     if (index == 0) {
         this.addAtFirst(val);
-
+        return;
         /* 
         newNode.next = this.head;
         head.next = newNode;
         size++;
         */
+    }
+    if (index == ) {
+
     }
     const cur = this.head;
 
