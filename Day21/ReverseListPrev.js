@@ -4,9 +4,9 @@ function ReverseListPrev(head) {
     while (cur != null) {
         let temp = cur.next;
         cur.next = prev;
-        cur = prev;
-        temp = cur;
+        prev = cur;
+        cur = temp;
     }
     head = prev;
-
+    return head;
 }
