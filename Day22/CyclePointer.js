@@ -1,6 +1,6 @@
 function CyclePointer(head) {
     let slow = head;
-    let fast = head;
+    let fast = head.next;
     while (fast && fast.next) {
         slow = slow.next;
         fast = fast.next.next;
