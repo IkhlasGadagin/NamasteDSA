@@ -3,7 +3,7 @@
 //skip if the value found same
 //else move prev
 
-
+F
 function RemoveElement() {
     let sentiment = new Node();
     sentiment.next = head;

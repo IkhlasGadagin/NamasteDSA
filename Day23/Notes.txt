@@ -1,0 +1,7 @@
+the sediment Node is created to manupulate the head
+where the head pointing the node must be pointed initially 
+Take the code of this sediment node
+while loop for the copide sediment node
+until goes at the end
+
+then the next of the sediment is the head return it
