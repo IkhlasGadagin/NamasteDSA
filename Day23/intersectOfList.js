@@ -17,3 +17,7 @@ function intersectList(headA, headB) {
 }
 
 intersectList(this.headA, this.headB);
+//add all the elements of any list to the set table
+//the take to copy of the second list and iterate until null
+//check is the element is exist before  if yes return node
+//move until null
