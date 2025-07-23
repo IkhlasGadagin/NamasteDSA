@@ -1,8 +1,8 @@
 //Algorithm  point the 3 pointer
-// point the prev at next
+//point the prev at next
 //first should point at third
 //second to first
-//move the pointers correctly pleas 
+//move the pointers correctly  
 //handle the cases
 function SwapPractise(head) {
     if (!head || !head.next) return head;
