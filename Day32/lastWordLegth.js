@@ -12,10 +12,10 @@ function lastWordLegth(s) {
         if (s[stringLength] === " ") {
             break;
         }
-        else {
-            ++count;
-            --stringLength
-        }
+
+        ++count;
+        --stringLength
+
     }
     return count;
 }
