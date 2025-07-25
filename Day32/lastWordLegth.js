@@ -2,23 +2,23 @@ function lastWordLegth(s) {
     stringLength = s.length - 1;
     console.log(stringLength);
     while (stringLength >= 0) {
-        if (s[stringLength] === " ") {
-            --stringLength;
-        }
-        else {
+        if (s[stringLength] !== " ") {
             break;
         }
+        --stringLength;
     }
     let count = 0;
     while (stringLength > 0) {
-        if (s[stringLength] != " ") {
-            count++;
-            stringLength--;
+        if (s[stringLength] === " ") {
+            break;
         }
-        else break;
+        else {
+            ++count;
+            --stringLength
+        }
     }
     return count;
 }
-let s = " i javascript coding   "
+let s = " i javascript coding is an Art   "
 let ans = lastWordLegth(s);
 console.log(ans);

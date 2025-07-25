@@ -22,6 +22,6 @@ function firstWordCount(s) {
     }
     return count;
 }
-const s = "     mine name is Khan";
+const s = "     javascript  is programming language";
 const ans = firstWordCount(s);
 console.log(ans);
