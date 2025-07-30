@@ -23,6 +23,6 @@ function palinDrome(s) {
     return true;
 }
 
-const str = "A man, aa plan, a canal: Panama"
+const str = "A man, a plan, a canal: Panama"
 let ans = palinDrome(str);
 console.log(ans);
