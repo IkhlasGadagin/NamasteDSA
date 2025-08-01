@@ -1,0 +1,9 @@
+the Reviion for the Anagram the logic
+palindrome
+the prefix
+
+the string loop
+ while 
+ the power of set object key value count 
+ Anagram calcilation logic not present cancillation means drecreasing the value if the current 
+ element is present if negative or not present not anagram 
