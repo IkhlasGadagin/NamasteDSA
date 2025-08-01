@@ -22,3 +22,5 @@ nid by slow fast  make reverse numm must point to mid temp variable upto cur pre
 reassignt last and the first 
 traversal both when prev compare both the values and move if not then false 
 complete travel means true at all
+
+the map = {} is the most powerful can hold key value 
