@@ -2,9 +2,11 @@ the introduction for stack and Queue
 how the STACK is different from others 
 push pop not accessed directly like ARRAY 
 Last in LAst out
-
+example  are Histry Browser
+Recursion Array
 
 Queue 
 is the logical data struture First in First out 
 the open mouth algorinth 
 Enque and deQueue 
+the microQueue task the File printing 
