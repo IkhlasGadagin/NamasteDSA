@@ -5,7 +5,7 @@
 // the remaining value is stored and pushed to q2 //
 //exchange the refrencr of the q2 to q1 by swapping
 var MyStack = function () {
-    this.q1 = []
+    this.q1 = [];
     this.q2 = [];
 
 };
@@ -24,10 +24,10 @@ MyStack.prototype.push = function (x) {
 MyStack.prototype.pop = function () {
     let l = this.q1.length;
     for (let i = 0; i < l - 1; i++) {
-        let ele = this.q1.swift();
+        let ele = this.q1.shift();
         this.q2.push(ele);
     }
-    let popedvalue = this.q1.swift()
+    let popedvalue = this.q1.shift()
 
     //swap
     let temp = this.q1;
@@ -42,7 +42,7 @@ MyStack.prototype.pop = function () {
 MyStack.prototype.top = function () {
     let l = q1.length;
     for (let i = 0; i < l - 1; i++) {
-        this.q2.push(this.q1.swift());
+        this.q2.push(this.q1.shift());
     }
     let topvalue = this.q1[0];
     this.q2.push(topvalue);
