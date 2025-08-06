@@ -1,5 +1,5 @@
 function validParanthisis(para) {
-    let par = para.split('');
+    let par = s.split('');
     let map = {
         "}": "{",
         ")": "(",
@@ -15,12 +15,12 @@ function validParanthisis(para) {
         else if (map[par[i]] === stack[stack.length - 1]) {
             stack.pop()
         }
+        else return false;
     }
     if (stack.length === 0) {
         return true;
     }
     else return false;
-
 }
 const paran = "[]()[{()}]{}";
 const ans = validParanthisis(paran);
