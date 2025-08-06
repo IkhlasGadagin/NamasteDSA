@@ -11,10 +11,12 @@ function validParanthisis(s) {
         ")": "(",
         "]": "["
     }
+    let openBraces = Object.values(map)
     // console.log(par, map["{"]);
-    let openBraces = ["(", "{", "["];
+    // let openBraces = ["(", "{", "["];
     let stack = [];
     for (let i = 0; i < par.length; i++) {
+        // if (map[par[i]]) {
         if (openBraces.includes(par[i])) {
             stack.push(par[i])
         }
