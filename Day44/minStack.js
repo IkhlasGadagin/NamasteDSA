@@ -1,9 +1,10 @@
-//the varible to maintain min 
-// while push update the min
-//
+//the Algorithm is 
+//while pushing at first time whn length is 0 that the [value, value]
+//when greater than 0 means and check min by take top element 
+//and the min value which is greter that pushed [value, max]
+//peek is same  
 var MinStack = function () {
     this.stack = [];
-    this.min = Infinity;
 };
 
 /** 
@@ -11,13 +12,12 @@ var MinStack = function () {
  * @return {void}
  */
 MinStack.prototype.push = function (val) {
-
-    if (this.val < this.stack[this.stack.length - 1]) {
-        this.min = this.val;
+    if (this.stack.length === 0) {
+        this.stack.push([val, val])
     }
-    else if (this.stack.length === 0) {
-        this.min = this.val
-        this.stack.push(val);
+    else {
+        let min = this.stack[length - 1][1];
+        this.stack.push(Math.max(val, min))
     }
 };
 
@@ -25,15 +25,15 @@ MinStack.prototype.push = function (val) {
  * @return {void}
  */
 MinStack.prototype.pop = function () {
-    let poppedValue = this.stack.pop();
-    return poppedValue;
+    this.stack.pop();
+
 };
 
 /**
  * @return {number}
  */
 MinStack.prototype.top = function () {
-    let topValue = this.stack[this.length - 1];
+    let topValue = this.stack[this.stack.length - 1][0]
     return topValue;
 };
 
@@ -41,7 +41,8 @@ MinStack.prototype.top = function () {
  * @return {number}
  */
 MinStack.prototype.getMin = function () {
-    return this.min;
+    let minValue = this.stack[this.length - 1][1];
+    return minValue;
 };
 
 /** 
