@@ -15,18 +15,36 @@ function ReversePolish(str) {
         if (!operation.includes(str[i])) {
             stack.push(str[i]);
         }
-        else {
-            let fir = stack.pop();
+        else if (stack.length > 1) {
             let sec = stack.pop();
-            let ans = Math.floor((sec)(str[i])(fir));
+            let fir = stack.pop();
+            let ans;
+
+            switch (str[i]) {
+                case '+':
+                    ans = sec + fir;
+                    break;
+                case '-':
+                    ans = sec - fir;
+                    break;
+                case '*':
+                    ans = sec * fir;
+                    break;
+                case '/':
+                    ans = Math.trunc(sec / fir);
+                    break;
+
+            }
             // finalAns = finalAns+ans
             stack.push(ans)
-            if (stack.length === 1) {
-                return stack.pop();
-            }
+            let result = stack.pop();
+            return Number(result);
+            // if (stack.length === 1) {
+            //      let result = stack.pop();
+            //      return Number(result);
+            // }
         }
     }
-    // return finalAns;
 
 }
 const string = ["4", "13", "5", "/", "+"];
