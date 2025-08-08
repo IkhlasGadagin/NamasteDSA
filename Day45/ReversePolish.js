@@ -3,9 +3,9 @@
 //push the elements until math operion exist
 //when not includes then push the numbers
 //if the opration came then pop twice and 
-// make operation store in the main variable 
+//eval and them push to stack
 //then push 
-// if 
+
 
 function ReversePolish(str) {
     let operation = ['+', '-', '*', '/'];
@@ -15,36 +15,15 @@ function ReversePolish(str) {
         if (!operation.includes(str[i])) {
             stack.push(str[i]);
         }
-        else if (stack.length > 1) {
-            let sec = stack.pop();
-            let fir = stack.pop();
-            let ans;
+        else {
+            let fir = Number(stack.pop());
+            let sec = Number(stack.pop());
 
-            switch (str[i]) {
-                case '+':
-                    ans = sec + fir;
-                    break;
-                case '-':
-                    ans = sec - fir;
-                    break;
-                case '*':
-                    ans = sec * fir;
-                    break;
-                case '/':
-                    ans = Math.trunc(sec / fir);
-                    break;
-
-            }
-            // finalAns = finalAns+ans
-            stack.push(ans)
-            let result = stack.pop();
-            return Number(result);
-            // if (stack.length === 1) {
-            //      let result = stack.pop();
-            //      return Number(result);
-            // }
+            let ans = eval(sec + str[i] + fir)
+            stack.push(Math.trunc(ans))
         }
     }
+    return Number(stack.pop());
 
 }
 const string = ["4", "13", "5", "/", "+"];
