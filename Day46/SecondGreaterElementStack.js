@@ -6,3 +6,20 @@ Output: [-1,3,-1] */
 //else that is the the current is smaller that the next
 //for this keep pushing
 //while loop for to find the second largest from the stack pop until to find
+
+function SecondLargest(nums, arr) {
+    let map = {};
+    let stack = [];
+    let lastElement = arr[arr.length - 1];
+
+    map[lastElement] = -1;
+    stack.push(lastElement);
+    console.log(map, stack);
+
+
+}
+let arr1 = [4, 1, 2];
+let arr2 = [4, 1, 2];
+let ans = SecondLargest(arr1, arr2);
+console.log(ans);
+
