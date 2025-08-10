@@ -28,12 +28,12 @@ function nextLargest(num, arr) {
         }
         stack.push(arr[i])
     }
-    // let ans = num.map((ele) => map[ele]);
-    // console.log(ans);
-    let ans = [];
-    for (let i = 0; i < num.length; i++) {
-        ans.push(map[num[i]]);
-    }
+    let ans = num.map((ele) => map[ele]);
+    console.log(ans);
+    // let ans = [];
+    // for (let i = 0; i < num.length; i++) {
+    //     ans.push(map[num[i]]);
+    // }
     return ans;
 
 }
