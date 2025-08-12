@@ -1,11 +1,5 @@
-/**
- * @param {number[]} temperatures
- * @return {number[]}
- */
-/* 
- the daily temperature require the stack to solve because 
+/* the daily temperature require the stack to solve because 
  the  next bigger to find so stack is implemented
- Algorithm
  #create stack, and array, push the last index to stack
  the ans array has same length  of the temps and filled with 0
  the for loop starts from length-2 and sloud decrease
@@ -15,8 +9,7 @@
  bigger find take the diff of the indices of the cur and the top elemnt
  put the ans in the ans array directly
  if not fount in the stack 
- assign to zero
- */
+ assign to zero */
 var dailyTemperatures = function (temp) {
     let stack = [];
     let n = temp.length;
