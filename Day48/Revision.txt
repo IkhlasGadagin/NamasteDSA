@@ -7,3 +7,4 @@ last
 create a array and fill the zero
 while loop for the stack start popping until get dresird answer
 if length  zero not found in the entire array  
+the stack 
