@@ -1,0 +1,8 @@
+The Algorithm is 
+the 2d array 
+the 2 represents the oange
+iterate if 2 is present then take the coordinated of i and j 
+push to the q
+while q 
+start swift 
+make the neighbour as 2 and push the coordinates with edge case handele
