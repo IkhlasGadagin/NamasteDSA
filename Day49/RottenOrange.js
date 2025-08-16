@@ -36,24 +36,24 @@ function RottenOrange(oran) {
 
     let maxMin = 0;
     while (queue.length) {
-        let [x, y, min] = queue.pop();
+        let [x, y, min] = queue.shift();
         //left
         if (x > 0 && oran[x - 1][y] === 1) {
             oran[x - 1][y] = 2;
             queue.push([x - 1, y, min + 1])
         }
         //right
-        if (x < m - 1 && oran[x + 1][y]) {
+        if (x < m - 1 && oran[x + 1][y] === 1) {
             oran[x + 1][y] = 2;
             queue.push([x + 1, y, min + 1])
         }
         //botton
-        if (y > 0 && oran[x][y - 1]) {
+        if (y > 0 && oran[x][y - 1] === 1) {
             oran[x][y - 1] = 2;
             queue.push([x, y - 1, min + 1])
         }
         //top
-        if (y < n && oran[x][y + 1]) {
+        if (y < n && oran[x][y + 1] === 1) {
             oran[x][y + 1] = 2;
             queue.push([x, y + 1, min + 1])
         }
