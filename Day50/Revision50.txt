@@ -1,0 +1,12 @@
+The Key words for the revision the all learnt Topics
+
+for
+if else
+{} scope
+variable 
+i j
+===
+while
+next head  prev 
+console.log
+the start print 
