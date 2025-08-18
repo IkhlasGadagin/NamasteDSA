@@ -10,3 +10,11 @@ while
 next head  prev 
 console.log
 the start print 
+Variable are used to store the data
+manupulate data
+function has parameters 
+can return the data who ever is called
+conditional statement if() else else if() {} scope modify the variable
+while loop when we don't know the end incremet
+the prefix problem
+
