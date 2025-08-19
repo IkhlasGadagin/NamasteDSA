@@ -17,4 +17,8 @@ can return the data who ever is called
 conditional statement if() else else if() {} scope modify the variable
 while loop when we don't know the end incremet
 the prefix problem
-
+the loop  for start 0 or 1 or length ends ++ or -- or jump with valid conditional
+start patter 
+count the Negative numbers
+Larget by the variable iterate 
+the 3d innner loop i j k
