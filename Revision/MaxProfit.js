@@ -1,13 +1,29 @@
 //the 2 approaches are there 
 //two loops the cur - prev greater 
+// function Profit(arr) {
+//     let maxProfit = arr[0];
+//     for (let i = 0; i < arr.length; i++) {
+//         for (let j = i + 1; j < arr.length; j++) {
+//             if ((arr[j] - arr[i]) > maxProfit) {
+//                 maxProfit = arr[j] - arr[i];
+//             }
+//         }
+//     }
+//     return maxProfit;
+// }
+//to find the min ans cur - min is greater than variable
 function Profit(arr) {
-    let maxProfit = arr[0];
+    let min = arr[0];
+    let maxProfit = 0;
     for (let i = 0; i < arr.length; i++) {
-        for (let j = i + 1; j < arr.length; j++) {
-            if ((arr[j] - arr[i]) > maxProfit) {
-                maxProfit = arr[j] - arr[i];
-            }
+        // if ((arr[i] - min) > maxProfit) {
+        //     maxProfit = arr[i] - min;
+        // }
+        maxProfit = Math.max(maxProfit, arr[i] - min)
+        if (arr[i] < min) {
+            min = arr[i];
         }
+        // min = Math.max(min, arr[i])
     }
     return maxProfit;
 }
