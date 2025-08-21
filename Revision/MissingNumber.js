@@ -15,7 +15,7 @@
 // }
 //missing number by math formula
 function Missing(arr) {
-    let num = arr.length + 1;
+    let num = arr.length;
     let total = (num * (num + 1)) / 2;
 
     let sum_of_array = 0
@@ -27,6 +27,6 @@ function Missing(arr) {
 
 
 }
-const arr = [1, 9, 7, 6, 5, 4, 2, 3];
+const arr = [1, 9, 7, 6, 5, 4, 2, 3, 0];
 const ans = Missing(arr);
 console.log(ans);
