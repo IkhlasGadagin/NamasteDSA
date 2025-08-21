@@ -2,7 +2,17 @@
 //loop count else 
 //select the max between the variable and the current 
 //make reset the variable
-
+//the map {}
+//put each element count 
+//return the key of one
+function countCont(arr) {
+    let map = {};
+    for (let i = 0; i < arr.length; i++) {
+        map[arr[i]] = !map[arr[i]] ? 1 : ++map[arr[i]];
+    }
+    console.log(map);
+    return map[1];
+}
 function countCon(arr) {
     let count = 0;
     let maxCon = 0;
@@ -12,7 +22,7 @@ function countCon(arr) {
         }
         else {
             if (count > maxCon) {
-                maxCon = count
+                maxCon = count;
             }
             count = 0;
         }
@@ -21,5 +31,6 @@ function countCon(arr) {
 
 }
 const arr = [0, 1, 1, 1, 0, 1, 1, 1, 1, 1];
-const ans = countCon(arr);
-console.log(ans);
+const ans = countCont(arr);
+const answer = countCon(arr);
+console.log(ans, answer);
