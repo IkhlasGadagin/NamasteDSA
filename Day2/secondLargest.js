@@ -7,8 +7,9 @@ function largest(arr) {
             if (arr[i][j] > largestNum) {
                 secondlargestNum = largestNum
                 largestNum = arr[i][j]
-
             }
+
+
             else if (arr[i][j] > secondlargestNum && arr[i][j] != largestNum) {
                 secondlargestNum = arr[i][j]
 
