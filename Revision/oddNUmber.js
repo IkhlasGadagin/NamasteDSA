@@ -1,11 +1,11 @@
 //write the odd numbers fromm 1 to 1000;
-function oddNumber() {
-    for (let i = 2000; i > 0; i--) {
-        if (i % 2 === 1) {
-            console.log(i);
-        }
-    }
-}
+// function oddNumber() {
+//     for (let i = 2000; i > 0; i--) {
+//         if (i % 2 === 1) {
+//             console.log(i);
+//         }
+//     }
+// }
 function evenNumber(arr) {
     // for (let i = 2000; i > 0; i--) {
     //     if (i % 2 === 0) {
