@@ -18,10 +18,9 @@ function checkValid(para) {
         else return false;
     }
 
-    if (stack.length === 0) {
-        return true;
-    }
-    else false
+
+
+    return stack.length === 0
 }
 const paranthisis = "(()()[]([]){})"
 const ans = checkValid(paranthisis);
