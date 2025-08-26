@@ -1,3 +1,4 @@
+// the array 
 function RemoveDuplicate() {
 
 }
