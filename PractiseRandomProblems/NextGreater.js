@@ -24,6 +24,9 @@ function nextGreater(arr) {
             else {
                 stack.pop();
             }
+            if (stack.length === 0) {
+                map[arr[i]] = -1
+            }
         }
         stack.push(arr[i])
     }
