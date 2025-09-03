@@ -20,6 +20,6 @@ function guess(num) {
     else if (num > 56) return -1
     else return 1
 }
-const num = 56;
+const num = 76;
 const ans = Guess(num);
 console.log(ans);
