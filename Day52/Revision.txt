@@ -9,3 +9,10 @@ for the array declare the size and the push the element 0 fill
 the algoethm for the pointer at the last and the first while least 
 move if else if else else
 if not not palindrome
+
+--------------------------------
+
+Binery search 
+the mid the pointer
+the mid -1 make the logn
+the search is the efficient Binery search
