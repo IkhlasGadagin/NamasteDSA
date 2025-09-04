@@ -16,3 +16,16 @@ Binery search
 the mid the pointer
 the mid -1 make the logn
 the search is the efficient Binery search
+
+---------------------------------
+the array problem solving by x = 0
+for remove duplicate 
+to fine the min in one pass 
+maxprofit 
+array indices
+the count by the map
+if frequncy 
+the prefix
+whlie x = 0 substring for the two condn [][] char not same 
+
+=======================================================
