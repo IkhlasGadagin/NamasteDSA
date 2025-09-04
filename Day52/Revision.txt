@@ -1,0 +1,5 @@
+The stack to count the next larget the 
+push tthe last elememt and map the element
+start for loop from the last second until forst 
+push pop based on the top if the stack is empty then the -1
+for the array declare the size and the push the element 0 fill
