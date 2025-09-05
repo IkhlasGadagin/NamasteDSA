@@ -29,3 +29,7 @@ the prefix
 whlie x = 0 substring for the two condn [][] char not same 
 
 =======================================================
+the paranthisis count when the count is greater than the 1
+else decrease the count ..side by add the paranthisis
+to the variable 
+return the variable
