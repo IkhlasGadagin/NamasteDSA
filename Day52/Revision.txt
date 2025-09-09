@@ -41,3 +41,47 @@ if open then push to the stack
 else take the top and take the vlaue 
 if matchs 
 if the stack is empty then valid else not
+
+The stack to count the next larget the 
+push tthe last elememt and map the element
+start for loop from the last second until forst 
+push pop based on the top if the stack is empty then the -1
+for the array declare the size and the push the element 0 fill
+
+-------------------------------------------------------------
+
+the algoethm for the pointer at the last and the first while least 
+move if else if else else
+if not not palindrome
+
+--------------------------------
+
+Binery search 
+the mid the pointer
+the mid -1 make the logn
+the search is the efficient Binery search
+
+---------------------------------
+the array problem solving by x = 0
+for remove duplicate 
+to fine the min in one pass 
+maxprofit 
+array indices
+the count by the map
+if frequncy 
+the prefix
+whlie x = 0 substring for the two condn [][] char not same 
+
+=======================================================
+the paranthisis count when the count is greater than the 1
+else decrease the count ..side by add the paranthisis
+to the variable 
+return the variable
+
+======================================================
+the valid can be done by the stack 
+and the map 
+if open then push to the stack
+else take the top and take the vlaue 
+if matchs 
+if the stack is empty then valid else not
