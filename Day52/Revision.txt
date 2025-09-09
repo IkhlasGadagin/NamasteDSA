@@ -85,3 +85,8 @@ if open then push to the stack
 else take the top and take the vlaue 
 if matchs 
 if the stack is empty then valid else not
+
+the rotten oranges 
+by queue
+by while corner case 
+return max Math.max
