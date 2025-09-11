@@ -18,9 +18,10 @@ function Freq(arr) {
     let maxCon = 0;
     for (let i = 0; i < s.length; i++) {
         if (vowels.includes(s[i])) {
-            if (map[s[i]] > maxVowel) {
-                maxVowel = map[s[i]]
-            }
+            // if (map[s[i]] > maxVowel) {
+            //     maxVowel = map[s[i]]
+            // }
+            maxVowel = Math.max(maxVowel, map[s[i]]);
         }
         else {
             if (map[s[i]] > maxCon) {
