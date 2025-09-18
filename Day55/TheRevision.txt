@@ -17,3 +17,34 @@ Master in the REactjs Node js and the mOngodb
 The react hooks 
 the map the filter the reduce the object the authorization 
 the authentication the the aim for the project 
+==================================================================================
+
+
+================================================================================
+the binary search 
+the left right 
+while the condition 
+if else mid changing the left and right 
+the return the left right 
+check if else  the logic when to decrease when to move rignt 
+
+
+function Ikhlas(arr){
+let l = 0;
+let r = arr.length;
+while(condition <=){
+the mid 
+the value
+if (condition){
+    to move the left
+}
+else{
+    move the right for the inclusive for the right
+}
+}
+return whetever we want 
+}
+
+
+
+
