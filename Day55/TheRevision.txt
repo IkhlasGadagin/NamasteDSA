@@ -13,3 +13,7 @@ the logic for the
 
 The React javascript and the Tailwind Css 
 Master in the REactjs Node js and the mOngodb
+
+The react hooks 
+the map the filter the reduce the object the authorization 
+the authentication the the aim for the project 
