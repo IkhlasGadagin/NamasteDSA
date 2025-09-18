@@ -1,0 +1,50 @@
+the array has the  index starts from the 
+the for loop 
+the start with first 0 the condidion the increment or the decrement 
+the bracket for the  for  loop 
+runnes until the condition fails
+the array the largest  the 
+the largest at the singlle flow is takes as for the first is the smallest
+if greater then exchange with the previous value 
+Math. max 
+if else
+the pointer 
+the palindrome the foe loop inner for loop 
+until the k the swap 
+check 
+the map for the count 
+if one else increase the value 
+the anagram 
+the by two string if less then zero or not present false else true
+the star printing the variable outside print and the re describe
+
+The Stack is the array 
+the the push the pop the swift 
+the for loop starts form the last 2 condition until 0 ans the decrement if the 
+the found the push into the Stack every time if stack lengt becones mans that not fount
+
+the queue for the orange problem 
+the while loop 
+the if else 
+the (){
+
+}
+the condition string is same for the 0 index and the 
+the count increase the else the else for the  decrese the count 
+
+the brakcet problem 
+the array includes 
+the array fill with the zero 
+take the aput the vlaue for that index 
+
+the the variable to stor ethe data 
+can be change for the let let left array 
+function for the parameneter 
+the return for the function  
+the removal for the dublicate is done for the inccrease the swap for the x
+ans the increase the x++
+move the zero 
+swap for thr temp
+the skip  for the x = x+2k
+
+
