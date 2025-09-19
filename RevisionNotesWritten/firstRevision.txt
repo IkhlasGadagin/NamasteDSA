@@ -47,4 +47,7 @@ move the zero
 swap for thr temp
 the skip  for the x = x+2k
 
-
+the bubble search 
+the selection sort  insertion sort
+merge sort
+slow and fast pointer 
